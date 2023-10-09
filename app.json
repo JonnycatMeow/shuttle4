@@ -1,24 +1,7 @@
 {
-  "name": "Shuttle-template",
-  "description": "cool website",
-  "image": "heroku/nodejs",
-  "addons": [],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "scripts": {
-    "start": "npm start"
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "Free"
-    }
+    "name": "Astronomy",
+    "description": "shuttle, The Best Space Website.",
+    "repository": "https://github.com/interstellarnetwork/interstellar",
+    "logo": "https://github.com/interstellarnetwork/interstellar/blob/main/static/assets/images/branding/favicon/in.png",
+    "keywords": ["school", "interstellar"]
   }
-}
-
